@@ -2145,6 +2145,10 @@ react:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-addons-pure-render-mixin:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.4.1.tgz#8a1f48f9fd3f24ed12af63c4d2dc0c7529fa7e02"
+
 react-addons-test-utils:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react-addons-test-utils/-/react-addons-test-utils-15.4.1.tgz#1e4caab151bf27cce26df5f9cb714f4fd8359ae1"
