@@ -31,7 +31,7 @@ export const Results = React.createClass({
 				</div>
 				<div className="management">
 					<button ref="next"
-									classname="next"
+									className="next"
 									onClick={this.props.next}>
 					Next
 					</button>

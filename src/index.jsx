@@ -6,6 +6,7 @@ import {Provider} from 'react-redux';
 import io from 'socket.io-client';
 
 import reducer from './reducer.js';
+import {setState} from './action_creators.js';
 import App from './components/App.jsx';
 import {VotingContainer} from './components/Voting.jsx';
 import {ResultsContainer} from './components/Results.jsx';
@@ -14,7 +15,7 @@ const store = createStore(reducer);
 
 const socket = io(`${location.protocol}//${location.hostname}:8090`);
 socket.on('state', state => 
-	store.dispatch({type: 'SET_STATE', state})
+	store.dispatch(setState(state))
 );
 
 const routes = <Route component={App}>
